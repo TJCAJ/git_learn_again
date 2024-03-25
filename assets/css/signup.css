@@ -19,7 +19,8 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
-    background-image: url("../images/gambling.webp");
+    background-image: url("../images/cards-in-hand-small-bw.webp");
+    background-size: cover;
     overflow-x: hidden;
 }
 
@@ -58,6 +59,7 @@ h6 span{
   position: relative;
   width: 100%;
   display: block;
+  margin-left: 3%;
 }
 .full-height{
   min-height: 100vh;
@@ -102,7 +104,6 @@ h6 span{
 .checkbox:checked + label:before {
   transform: translateX(44px) rotate(-270deg);
 }
-
 
 .card-3d-wrap {
   position: relative;
@@ -170,7 +171,8 @@ h6 span{
 .form-style {
   padding: 13px 20px;
   padding-left: 55px;
-  height: 48px;
+  margin-top: 2px;
+  height: 40px;
   width: 100%;
   font-weight: 500;
   border-radius: 4px;
@@ -276,6 +278,7 @@ h6 span{
   background-color: #fafafa;
   color: black;
   box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+  margin-top: 15px;
 }
 .btn:active,
 .btn:focus{  
@@ -301,4 +304,21 @@ h6 span{
 	height: 26px;
 	width: auto;
 	display: block;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #e21111;
+}
+
+#social-networks {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  justify-content: space-around;
+  color: #fafafa;
+  list-style-type: none;
+  margin-top: 5px;
 }
